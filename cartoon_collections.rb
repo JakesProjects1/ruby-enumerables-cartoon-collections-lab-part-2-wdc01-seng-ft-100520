@@ -31,7 +31,7 @@ def long_planeteer_calls(planeteer_calls)
   end
 end
 
-
+long_planeteer_calls(planeteer_calls)
 
 
 def find_valid_calls(planeteer_calls)
