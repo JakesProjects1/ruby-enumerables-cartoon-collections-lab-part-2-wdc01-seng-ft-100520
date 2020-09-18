@@ -27,6 +27,7 @@ def long_planeteer_calls(planeteer_calls)
       puts true
     else
       puts false
+    end
   end
 end
 
