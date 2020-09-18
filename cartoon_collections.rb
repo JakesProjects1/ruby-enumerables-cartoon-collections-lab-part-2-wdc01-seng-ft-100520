@@ -23,6 +23,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.any {|element| element > 4}
+   puts true 
+ else
+   puts false
   
   
 end
