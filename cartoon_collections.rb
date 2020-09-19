@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
  
  new_array = []
  planeteer_calls.each do |element|
-   if valid_calls.element = planeteer_calls.element
+   if valid_calls[0] = planeteer_calls[0]
      new_array << valid_calls.element
    end 
 end
