@@ -37,7 +37,7 @@ def find_valid_calls(planeteer_calls)
  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
  new_array = []
- planeteer_calls.map do |element|
+ planeteer_calls.find do |element|
    if element == valid_calls[0] 
     element
    end
