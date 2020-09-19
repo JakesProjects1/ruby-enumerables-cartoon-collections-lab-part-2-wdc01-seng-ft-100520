@@ -39,7 +39,7 @@ def find_valid_calls(planeteer_calls)
  new_array = []
  planeteer_calls.each do |element|
    if valid_calls[0] = planeteer_calls[0]
-    valid_calls[0]
+    valid_calls
    end 
  end
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
