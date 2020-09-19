@@ -37,9 +37,7 @@ def find_valid_calls(planeteer_calls)
  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
  new_array = []
- planeteer_calls.find |element|
-   if element == valid_calls
-    element
+ planeteer_calls.find |element
    end
  end
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
