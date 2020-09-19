@@ -41,9 +41,9 @@ def find_valid_calls(planeteer_calls)
    if valid_calls[0] = planeteer_calls[0]
      new_arrays << valid_calls[0]
    end 
-end
+ end
   
-   new_array
+new_array
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
 end
